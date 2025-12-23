@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
@@ -77,16 +76,20 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button size="lg" className="bg-[#2d5a47] hover:bg-[#1a3a2f] text-white px-10 h-14 text-base rounded-lg shadow-lg hover:shadow-xl transition-all">
+            <button 
+              type="button"
+              className="bg-[#2d5a47] hover:bg-[#1a3a2f] text-white px-10 h-14 text-base rounded-lg shadow-lg hover:shadow-xl transition-all"
+              onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Khám phá dịch vụ
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
+            </button>
+            <button
+              type="button"
               className="border-2 border-[#c4a159] text-[#c4a159] hover:bg-[#c4a159]/10 px-10 h-14 text-base rounded-lg bg-transparent backdrop-blur-sm"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Liên hệ ngay
-            </Button>
+            </button>
           </div>
         </motion.div>
 

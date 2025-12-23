@@ -27,7 +27,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-32 px-4 sm:px-6 lg:px-8 relative">
+    <section  className="py-32 px-4 sm:px-6 lg:px-8 relative">
       <div className="absolute inset-0 gradient-dark-emerald opacity-3 -z-10" />
 
       <div className="max-w-6xl mx-auto">
@@ -39,7 +39,7 @@ export default function Services() {
           className="text-center mb-24"
         >
           <span className="text-[#c4a159] text-sm tracking-widest uppercase font-light">Dịch vụ</span>
-          <h2 className="text-5xl sm:text-6xl font-serif font-light text-[#1a1410] mt-4 mb-6">
+          <h2 id="services" className="text-5xl sm:text-6xl font-serif font-light text-[#1a1410] mt-4 mb-6">
             Những gì chúng tôi cung cấp
           </h2>
           <div className="w-20 h-1 gradient-burgundy-gold mx-auto" />

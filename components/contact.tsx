@@ -1,11 +1,10 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
 
 export default function Contact() {
   return (
-    <section className="py-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <section  className="py-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 gradient-light-cream -z-10" />
 
       <div className="max-w-5xl mx-auto">
@@ -17,7 +16,7 @@ export default function Contact() {
           className="text-center mb-24"
         >
           <span className="text-[#c4a159] text-sm tracking-widest uppercase font-light">Liên hệ</span>
-          <h2 className="text-5xl sm:text-6xl font-serif font-light text-[#1a1410] mt-4 mb-6">
+          <h2 id="contact" className="text-5xl sm:text-6xl font-serif font-light text-[#1a1410] mt-4 mb-6">
             Hãy nói cho chúng tôi biết
           </h2>
           <div className="w-20 h-1 gradient-burgundy-gold mx-auto" />
@@ -150,9 +149,9 @@ export default function Contact() {
                 />
               </div>
 
-              <Button className="w-full bg-[#2d5a47] hover:bg-[#1a3a2f] text-white py-3 rounded-lg font-light tracking-wide transition-all duration-300">
+              <button type="submit" className="w-full bg-[#2d5a47] hover:bg-[#1a3a2f] text-white py-3 rounded-lg font-light tracking-wide transition-all duration-300">
                 Gửi thông điệp
-              </Button>
+              </button>
             </form>
           </motion.div>
         </div>
