@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const pricingData = [
   {
     name: "Đỏ Trơn",
-    basePrice: "600k",
+    basePrice: "60k",
     description: "Set 10 bao lì xì đỏ trơn",
     items: [
       { label: "2 chữ mẫu sẵn có", price: "" },
@@ -16,7 +16,7 @@ const pricingData = [
   },
   {
     name: "Hoa Ép Kim",
-    basePrice: "800k",
+    basePrice: "80k",
     description: "Set 10 bao lì xì hoa ép kim 24K",
     items: [
       { label: "2 chữ mẫu sẵn có", price: "" },
